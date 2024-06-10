@@ -25,7 +25,7 @@ function printingCharacters(character) {
     });
 }
 
-request('https://swapi-api.alx-tools.com/api/films/3', async function (error, response, data) {
+request('https://swapi-api.alx-tools.com/api/films/'+process.argv[2], async function (error, response, data) {
     let jsondata = JSON.parse(data);
     let characters = jsondata.characters;
 
