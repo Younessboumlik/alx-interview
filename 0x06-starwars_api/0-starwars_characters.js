@@ -1,3 +1,4 @@
+#!/usr/bin/node
 const request = require('request');
 
 function printingCharacters(character) {
