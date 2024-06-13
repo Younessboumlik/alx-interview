@@ -1,7 +1,9 @@
+#!/usr/bin/python3
+""" Lockboxes problem. """
+
+
 def canUnlockAll(boxes):
-    """
-    This function determines if all boxes can be opened.
-    """
+    """    This function determines if all boxes can be opened.    """
     keys = [0]
     for key in keys:
         for box in boxes[key]:
