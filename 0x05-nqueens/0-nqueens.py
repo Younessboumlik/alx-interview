@@ -2,7 +2,6 @@
 import sys
 """ This program is solving the Nqueens problem using backtracking """
 
-
 def solvenqueens(n):
     """ This is the main function that will solve the n queens problem. """
     if(type(n) != int):
@@ -39,5 +38,12 @@ def issafe(row, col, result):
 
 
 if __name__ == "__main__":
-    for i in solvenqueens(int(sys.argv[1])):
-        print(i)
+    if(len(sys.argv) != 2):
+        print("Usage: nqueens N")
+        exit(1)
+    try:
+        for i in solvenqueens(int(sys.argv[1])):
+            print(i)
+    except ValueError:
+        print("N must be a number")
+        exit(1)
