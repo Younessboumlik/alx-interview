@@ -33,8 +33,8 @@ def solvingnqueens(n, row, result, solutions):
 def issafe(row, col, result):
     """ This function check if a queen can be placed at a given position. """
     for i in range(len(result)):
-        if(result[i][1] == col or result[i][0] == row
-           or abs(result[i][0] - row) == abs(result[i][1] - col)):
+        if(result[i][1] == col or result[i][0] == row or
+           abs(result[i][0] - row) == abs(result[i][1] - col)):
             return False
     return True
 
