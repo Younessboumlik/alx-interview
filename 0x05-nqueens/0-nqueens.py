@@ -25,7 +25,6 @@ def solvingnqueens(n,row,result,solutions):
             result.append([row, col])
             solvingnqueens(n, row + 1, result, solutions)
             result.pop()
-    pass
 
 def issafe(row, col, result):
     """ This function will check if a queen can be placed at a given position. """
@@ -33,14 +32,3 @@ def issafe(row, col, result):
         if(result[i][1] == col or result[i][0] == row or abs(result[i][0] - row) == abs(result[i][1] - col)):
             return False
     return True
-
-
-
-
-# if __name__ == "__main__":
-#     solutions = solvenqueens('d')
-#     print(solution)
-#     solutions = solvenqueens(2)
-#     print(solution)
-#     solutions = solvenqueens(6)
-#     print(solution)
