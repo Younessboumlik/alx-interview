@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 """ This program is solving the Nqueens problem using backtracking """
 
+
 def solvenqueens(n):
     """ This is the main function that will solve the n queens problem. """
     if(type(n) != int):
@@ -36,10 +37,10 @@ def issafe(row, col, result):
 
 
 
-if __name__ == "__main__":
-    solutions = solvenqueens('d')
-    print(solution)
-    solutions = solvenqueens(2)
-    print(solution)
-    solutions = solvenqueens(6)
-    print(solution)
+# if __name__ == "__main__":
+#     solutions = solvenqueens('d')
+#     print(solution)
+#     solutions = solvenqueens(2)
+#     print(solution)
+#     solutions = solvenqueens(6)
+#     print(solution)
