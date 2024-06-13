@@ -3,6 +3,12 @@
 
 def solvenqueens(n):
     """ This is the main function that will solve the n queens problem. """
+    if(type(n) != int):
+        print("N must be a number")
+        exit(1)
+    elif (n < 4):
+        print("N must be at least 4")
+        exit(1)
     result = []
     solutions = []
     solvingnqueens(n, 0, result, solutions)
@@ -28,7 +34,12 @@ def issafe(row, col, result):
     return True
 
 
+
+
 if __name__ == "__main__":
-    solutions = solvenqueens(4)
-    for solution in solutions:
-        print(solution)
+    solutions = solvenqueens('d')
+    print(solution)
+    solutions = solvenqueens(2)
+    print(solution)
+    solutions = solvenqueens(6)
+    print(solution)
