@@ -4,7 +4,8 @@ import signal
 
 
 total_size = 0
-status_counts = {code: 0 for code in ['200', '301', '400', '401', '403', '404', '405', '500']}
+status_counts = {code: 0 for code in ['200',
+                '301', '400', '401', '403', '404', '405', '500']}
 line_count = 0
 
 
@@ -30,7 +31,7 @@ def process_line(line):
         parts = line.split()
         if len(parts) < 9:
             return
-        
+
         status_code = parts[-2]
         file_size = parts[-1]
 
@@ -38,7 +39,7 @@ def process_line(line):
             status_counts[status_code] += 1
 
         total_size += int(file_size)
-        
+
         line_count += 1
 
         if line_count % 10 == 0:
