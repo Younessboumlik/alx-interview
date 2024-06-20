@@ -4,27 +4,27 @@ For the “0. Change comes from within” project, you will tackle a classic pro
 
 # *Concepts Needed:*
 <ul>
-<li> **Greedy Algorithms:** </li>
+<li> <b>Greedy Algorithms:</b></li>
 
 Understanding how greedy algorithms work and why they are suitable for the coin change problem.
 Recognizing the limitations of greedy algorithms and scenarios where they might not provide the optimal solution.
 
-<li> **Dynamic Programming:** </li>
+<li> <b>Dynamic Programming:</b> </li>
 
 Basic principles of dynamic programming as a method to solve optimization problems.
 The concept of overlapping subproblems and optimal substructure in the context of the coin change problem.
 
-<li> **Algorithmic Complexity:** </li>
+<li> <b>Algorithmic Complexity:</b> </li>
 
 Analyzing the time and space complexity of algorithms.
 Striving for solutions with lower complexity to meet runtime constraints.
 
-<li> **Problem-Solving Strategies:** </li>
+<li> <b>Problem-Solving Strategies:</b> </li>
 
 Breaking down the problem into smaller, manageable sub-problems.
 Iterative vs recursive approaches to dynamic programming.
 
-<li> **Python Programming:** </li>
+<li> <b>Python Programming:</b> </li>
 
 Manipulating lists and using list comprehensions.
 Implementing functions with efficient looping and conditional statements.
