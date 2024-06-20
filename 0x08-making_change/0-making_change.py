@@ -6,7 +6,6 @@ def makeChange(coins, total):
         return 0
     coins.sort()
     coins.reverse()
-    print(coins)
     n = 0
     for coin in coins:
         while total >= coin:
