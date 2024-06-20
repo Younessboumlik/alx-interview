@@ -1,5 +1,7 @@
 #!/usr/bin/python3
-""" Given a pile of coins of different values, determine the fewest number of coins needed to meet a given amount total. """
+""" Determine the fewest number of coins needed to meet a given total. """
+
+
 def makeChange(coins, total):
     """Return the minimum number of coins needed to make change for total."""
     if total <= 0:
