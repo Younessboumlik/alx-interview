@@ -1,4 +1,9 @@
+#!/usr/bin/python3
+""" The goal is to calculate the perimeter of a single island in a grid, where the grid is represented by a 2D array of integers. """
+
+
 def island_perimeter(grid):
+    """ returns the perimeter of the island described in grid """
     n = 0
     for i in range(len(grid)):
         for j in range(len(grid[i])):
