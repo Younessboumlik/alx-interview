@@ -32,8 +32,9 @@ def isWinner(x, nums):
             ben += 1
         else:
             maria += 1
-        
-    return "Maria" if maria > ben else  "Ben"
+
+    return "Maria" if maria > ben else "Ben"
+
 
 if __name__ == "__main__":
     print("Winner: {}".format(isWinner(3, [4, 5, 1])))
