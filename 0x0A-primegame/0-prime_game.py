@@ -21,6 +21,10 @@ def isPrime(num):
 
 def isWinner(x, nums):
     """ determine the winner of the game"""
+    if x <= 0 or nums is None:
+        return None
+    if x != len(nums):
+        return None
     maria = 0
     ben = 0
     for i in range(x):
